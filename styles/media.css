@@ -4,6 +4,7 @@
   }
 
   li {
+    margin-top: 1rem;
     margin-right: 3rem;
   }
 
@@ -31,5 +32,15 @@
   form {
     width: 100%;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  li {
+    margin-right: 0rem;
+  }
+
+  ul {
+    padding: 0;
   }
 }

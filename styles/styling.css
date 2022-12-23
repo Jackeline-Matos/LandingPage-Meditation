@@ -22,10 +22,22 @@ li {
 
 a {
   color: #858cc6;
+  text-decoration: none;
+  width: 50px;
+  height: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
 }
+
 a:hover {
-  color: blueviolet;
+  color: #ffffff;
   transition: 0.5s all;
+  background-color: #858cc6;
+  border-radius: 1.5rem;
+}
+
+a:active {
+  color: #9ececc;
 }
 
 #title {
@@ -76,6 +88,7 @@ input[type="text"],
   border-radius: 1.5rem;
   border: #858cc6 1px solid;
   font-size: 15px;
+  outline: unset;
 }
 
 form [type="submit"] {
