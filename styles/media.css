@@ -33,11 +33,16 @@
     width: 100%;
     text-align: center;
   }
+
+  #position-img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 560px) {
   li {
-    margin-right: 0rem;
+    margin-right: 0;
   }
 
   ul {
